@@ -1,0 +1,16 @@
+service only_2_buffers
+{
+        disable = no
+        type = UNLISTED
+        wait = no
+        server = /home/compfest12/only-2-buffers
+        socket_type = stream
+        protocol = tcp
+        user = compfest12
+        port = 1337 
+        flags = REUSE
+        per_source = 5
+        rlimit_cpu = 3
+        nice = 18
+}
+

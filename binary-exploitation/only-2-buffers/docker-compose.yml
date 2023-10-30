@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    only-2-buffers:
+        build: .
+        restart: always
+        security_opt:
+            - seccomp:unconfined
+        ports:
+            - 24901:1337
+        volumes:
+            - ./xinetd:/etc/xinetd.d/shellcode:ro

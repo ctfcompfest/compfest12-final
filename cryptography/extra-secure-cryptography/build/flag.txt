@@ -1,0 +1,10 @@
+Hey Alice, just wanted to warn you that this encryption isn't secure
+
+In fact, not only is this message not secure, EVERY message that is generated after init,
+is insecure
+
+Damn backdoors, gotta be careful
+
+Anyways, here's the flag: COMPFEST12{Elliptic_curves_are_just_as_strong_as_the_implementation_94e80df}
+
+Have a nice day Alice :)

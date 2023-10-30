@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  asap:
+    build: .
+    restart: always
+    ports:
+      - 28988:1337
+    environment: 
+      FLAG: COMPFEST12{1m_sp33d_1ebdb3191c}

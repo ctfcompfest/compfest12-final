@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  secret_sharing_v232:
+    build: .
+    restart: always
+    ports:
+      - 24952:1337

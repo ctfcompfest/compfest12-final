@@ -1,0 +1,8 @@
+version: "3"
+services:
+  web:
+    build: .
+    volumes:
+      - ./web/config/:/usr/local/etc/php/conf.d/
+    ports:
+      - "29925:80"

